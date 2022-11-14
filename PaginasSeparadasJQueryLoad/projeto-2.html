@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Vidigal Ribeiro</title>
+
+    <link href="assets/libs/bootstrap-5.2.2-dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+
+<body class="d-flex flex-column h-100">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Victor Vidigal Ribeiro</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample03">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Principal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre-min.html">Sobre mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="formacao.html">Formação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="atuacao-profissional.html">Atuação profissional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                aria-expanded="false">Portfólio</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="projeto-1.html">Projeto 1</a></li>
+                                <li><a class="dropdown-item active" href="projeto-2.html">Projeto 2</a></li>
+                                <li><a class="dropdown-item" href="projeto-3.html">Projeto 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form role="search">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-shrink-0">
+        <section id="projeto-2">
+            <div class="px-4 pt-5 my-5 text-center border-bottom">
+                <h1 class="display-4 fw-bold">Projeto 2</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">
+                        Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Suco de
+                        cevadiss deixa as pessoas mais interessantis.Admodum accumsan disputationi eu sit. Vide electram
+                        sadipscing et per.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.
+
+                        Cevadis im ampola pa arma uma pindureta.Quem manda na minha terra sou euzis!Delegadis gente
+                        finis, bibendum egestas augue arcu ut est.Casamentiss faiz malandris se pirulitá.
+
+                        Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis
+                        nisl.Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Atirei o pau no
+                        gatis, per gatis num morreus.Posuere libero varius. Nullam a nisl ut ante blandit hendrerit.
+                        Aenean sit amet nisi.
+
+                        Atirei o pau no gatis, per gatis num morreus.Viva Forevis aptent taciti sociosqu ad litora
+                        torquent.Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Quem num
+                        gosta di mé, boa gentis num é.
+
+                        Delegadis gente finis, bibendum egestas augue arcu ut est.Leite de capivaris, leite de mula
+                        manquis sem cabeça.Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque,
+                        eget.Casamentiss faiz malandris se pirulitá.
+                    </p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container">
+            <span class="text-muted">Place sticky footer content here.</span>
+        </div>
+    </footer>
+
+
+    <script src="assets/libs/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        headerLinks.forEach(el => {
+            el.addEventListener('click', () => {
+                const nav = document.querySelector('.header__menu');
+                nav.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
